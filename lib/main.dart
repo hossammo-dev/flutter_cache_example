@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
-import 'home_screen.dart';
+import 'ui/home_screen.dart';
 import 'models/comment_model.dart';
-import 'remote_data_manager.dart';
+import 'services/remote_data_manager.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 import 'cache_data_manager.dart';
-import 'models/comment_model.dart';
+import '../models/comment_model.dart';
 
 class DioHelper {
   static Dio? _dio;

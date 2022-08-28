@@ -1,6 +1,6 @@
 import 'package:hive/hive.dart';
 
-import 'models/comment_model.dart';
+import '../models/comment_model.dart';
 
 const String _boxName = "comments_box";
 

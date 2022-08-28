@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'cache_data_manager.dart';
-import 'models/comment_model.dart';
-import 'remote_data_manager.dart';
+import '../services/cache_data_manager.dart';
+import '../models/comment_model.dart';
+import '../services/remote_data_manager.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({Key? key}) : super(key: key);
