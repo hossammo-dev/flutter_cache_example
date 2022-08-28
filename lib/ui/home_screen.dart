@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:internet_connection_checker/internet_connection_checker.dart';
-
 import 'cache_data_manager.dart';
 import 'models/comment_model.dart';
 import 'remote_data_manager.dart';
